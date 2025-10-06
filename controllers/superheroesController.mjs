@@ -26,4 +26,4 @@ export function buscarSuperheroesPorAtributoController(req, res) {
 export function obtenerSuperheroesMayoresDe30Controller(req, res) {
     const superheroes = obtenerSuperheroesMayoresDe30();
     res.send(renderizarListaSuperheroes(superheroes));
-}
+} 
