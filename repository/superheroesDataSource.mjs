@@ -1,6 +1,6 @@
 export default class superheroesDatasource {
     //Metodo abstracto para obtener todos los superhéroes
-    obtenerTodos() {
+    obtenerTodos() { 
         throw new Error('Este método debe ser implementado por la subclase');
     }
 }

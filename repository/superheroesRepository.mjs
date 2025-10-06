@@ -11,6 +11,7 @@ export default class SuperheroesFileRepository extends superheroesDatasource {
         super();
         this.filePath = path.join(__dirname, '../superheroes.txt');
     }
+    
     obtenerTodos() {
         const data = fs.readFileSync(this.filePath, 'utf-8');
         return JSON.parse(data); //Convierte el archivoJSON en un array de objetos JS
