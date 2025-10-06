@@ -4,4 +4,4 @@ export function renderizarSuperheroe(superheroe) {
 
 export function renderizarListaSuperheroes(superheroes) {
     return JSON.stringify(superheroes, null, 2);
-}
+} 
