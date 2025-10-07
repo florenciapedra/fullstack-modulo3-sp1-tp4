@@ -1,4 +1,4 @@
-import { obtenerSuperheroePorId, buscarSuperheroesPorAtributo, obtenerSuperheroesMayoresDe30 } from '../services/superheroesServices.mjs';
+import { obtenerSuperheroePorId, buscarSuperheroesPorAtributo, obtenerSuperheroesMayoresDe30 } from '../services/superheroesService.mjs';
 import { renderizarSuperheroe, renderizarListaSuperheroes } from'../views/responseView.mjs';
 
 export function obtenerSuperheroePorIdController(req, res) {
